@@ -7,16 +7,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
-    "build": "webpack"
-  },
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+    },
   "repository": {
     "type": "git",
-    "url": "git+https://mdani@bitbucket.org/innodigit/scss-topics.git"
+    "url": "git+https://github.com/jankidani/htmlcomps.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://jankidani.github.io/htmlcomps",
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "clean-webpack-plugin": "^3.0.0",
